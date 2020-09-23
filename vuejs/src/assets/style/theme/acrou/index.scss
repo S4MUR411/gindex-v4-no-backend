@@ -42,7 +42,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 4px;
-  background-color: black;
+  background-color: grey;
 }
 
 /* Track */
@@ -58,7 +58,7 @@ body {
 }
 
 html {
-  background-color: black;
+  background-color: grey;
   font-size: 14px;
 }
 
@@ -80,7 +80,7 @@ html {
     background: none;
   }
   .search-input {
-    background-color: black;
+    background-color: grey;
     color: #e50914;
     border: 0px;
   }
@@ -101,7 +101,7 @@ html {
 }
 
 .navbar-dropdown{
-  background-color: black;
+  background-color: grey;
 }
 
 .navbar-active {
@@ -160,7 +160,7 @@ body {
 
     &:hover {
       background-color: white;
-      color: black;
+      color: grey;
     }
 
     &.icon {
@@ -241,7 +241,7 @@ body {
 
 .video-content {
   width: 100%;
-  background-color: black;
+  background-color: grey;
   position: relative;
   padding-bottom: 2%;
 
@@ -257,12 +257,12 @@ body {
   text-align: center;
   width: 100%;
   padding: 5%;
-  background-color: black;
+  background-color: grey;
   border: 1px solid #E50914;
 }
 
 .audio-card:hover {
-  border: 1px solid black;
+  border: 1px solid grey;
 }
 
 //search bar
@@ -299,7 +299,7 @@ body {
   }
 
   .pageloader::after {
-    border: 0 solid black;
+    border: 0 solid grey;
   }
 }
 
@@ -350,17 +350,17 @@ body {
 
 .is-divider-vertical[data-content]::after,
 .is-divider[data-content]::after {
-  color: black;
+  color: grey;
   background-color: #E50914;
 }
 
 .card-header-title {
   color: #E50914;
-  background-color: black;
+  background-color: grey;
 }
 
 .card-content {
-  background-color: black;
+  background-color: grey;
   color: #E50914;
   font-weight: bold;
 }
@@ -371,7 +371,7 @@ body {
 
 .download-link {
   border: 1px solid #E50914;
-  background-color: black;
+  background-color: grey;
   color: #E50914;
 }
 
@@ -407,7 +407,7 @@ body {
 
 #copy-url {
   padding: 10px;
-  background-color: black;
+  background-color: grey;
   border: 1px solid #E50914;
   margin: 10px;
   color: #E50914;
@@ -417,7 +417,7 @@ body {
 }
 
 #copy-url:hover {
-  border: 1px solid black;
+  border: 1px solid grey;
   color: #E50914;
 }
 
@@ -440,7 +440,7 @@ body {
 
 .download-button {
   padding: 10px;
-  background-color: black;
+  background-color: grey;
   border: 1px solid #E50914;
   margin: 10px;
   color: #E50914;
@@ -450,7 +450,7 @@ body {
 }
 
 .download-button:hover {
-  border: 1px solid black;
+  border: 1px solid grey;
   color: #E50914;
 }
 
@@ -507,14 +507,14 @@ body {
   }
   input {
     margin: 5px;
-    background-color: black;
+    background-color: grey;
     border: 1px solid #E50914;
     color: #E50914;
     font-family: monospace;
     font-size: 17px;
   }
   input:hover {
-    background-color: black;
+    background-color: grey;
   }
   .login-button {
     background-color: #b6eb7a;
@@ -564,14 +564,14 @@ body {
   }
   input,textarea {
     margin: 5px;
-    background-color: black;
+    background-color: grey;
     border: 1px solid #E50914;
     color: #E50914;
     font-family: monospace;
     font-size: 18px;
   }
   input:hover,textarea:hover {
-    background-color: black;
+    background-color: grey;
   }
   .guidelines {
     color: #E50914;
@@ -594,7 +594,7 @@ body {
   .registration-top-buttons {
     margin: 5px;
     background-color: #ffe8df;
-    color: black;
+    color: grey;
     border: none;
     padding: 5px;
     border-radius: 0.5rem;
@@ -614,13 +614,13 @@ body {
   .top-buttons {
     margin: 5px;
     background-color: #ffe8df;
-    color: black;
+    color: grey;
     border: none;
     padding: 5px;
     border-radius: 0.5rem;
   }
   .top-buttons:hover {
-    background-color: black;
+    background-color: grey;
     color:white;
     border: 1px solid #E50914;
   }
@@ -649,7 +649,7 @@ body {
         color: white;
       }
       a:hover {
-        color: black;
+        color: grey;
       }
     }
     h3,p {
@@ -690,7 +690,7 @@ body {
       }
     }
     .scope-list:hover {
-      background-color: black;
+      background-color: grey;
       color: white;
     }
   }
@@ -709,7 +709,7 @@ body {
 .pendingusers {
   .getuserbutton {
     color: #E50914;
-    background-color: black;
+    background-color: grey;
     padding: 5px;
     border-radius: 0.5rem;
     border: 2px solid #E50914;
@@ -821,7 +821,7 @@ body {
 th {
   color: white;
   &:hover {
-    color: black;
+    color: grey;
   }
 }
 
@@ -924,7 +924,7 @@ th {
   display: block !important;
   z-index: 10000;
   .tooltip-inner {
-    background: black;
+    background: grey;
     color: white;
     border-radius: 16px;
     padding: 5px 10px 4px;
@@ -935,7 +935,7 @@ th {
     border-style: solid;
     position: absolute;
     margin: 5px;
-    border-color: black;
+    border-color: grey;
     z-index: 1;
   }
   &[x-placement^="top"] {
@@ -1007,7 +1007,7 @@ th {
       color: white;
       padding: 24px;
       border-radius: 5px;
-      box-shadow: 0 5px 30px rgba(black, .1);
+      box-shadow: 0 5px 30px rgba(grey, .1);
     }
     .tooltip-arrow {
       border-color: $color;
@@ -1017,10 +1017,10 @@ th {
     $color: #f9f9f9;
     .popover-inner {
       background: $color;
-      color: black;
+      color: grey;
       padding: 24px;
       border-radius: 5px;
-      box-shadow: 0 5px 30px rgba(black, .1);
+      box-shadow: 0 5px 30px rgba(grey, .1);
     }
     .popover-arrow {
       border-color: $color;
@@ -1033,7 +1033,7 @@ input:focus {
 }
 
 .searchbar-input {
-  background-color: black;
+  background-color: grey;
   border: 1px solid #e50914;
   color:#e50914;
   &::placeholder {
